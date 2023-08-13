@@ -396,7 +396,7 @@
                                     <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="{{asset('assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
