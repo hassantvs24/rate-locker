@@ -1,5 +1,9 @@
 <x-master-layout>
 
+    <x-slot:title>
+        Red Locker | Hotel Booking
+    </x-slot>
+
     <section class="home-hero">
         <div class="container">
             <div class="row">

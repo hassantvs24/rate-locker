@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PropertyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'index'])->name('home');
+
+Route::get('/property', [PropertyController::class, 'index'])->name('property');
+Route::get('/property-add', [PropertyController::class, 'add_property'])->name('property.add');
+Route::get('/property-details', [PropertyController::class, 'property_view'])->name('property.show');
+Route::get('/property-room', [PropertyController::class, 'property_room'])->name('property.room');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

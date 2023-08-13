@@ -16,10 +16,10 @@
                                 <a class="nav-link" href="#">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Porperty List</a>
+                                <a class="nav-link" href="{{route('property')}}">Property List</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Add Property</a>
+                                <a class="nav-link" href="{{route('property.add')}}">Add Property</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Support</a>
