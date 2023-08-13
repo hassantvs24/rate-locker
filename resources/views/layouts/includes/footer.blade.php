@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <span class="footer-logo d-flex align-items-center"><img src="assets/img/footer-icon.png" alt=""> Rate Locker</span>
+                <span class="footer-logo d-flex align-items-center"><img src="{{asset('assets/img/footer-icon.png')}}" alt=""> Rate Locker</span>
             </div>
         </div>
         <div class="row">
@@ -48,15 +48,15 @@
                 <!-- Single Footer -->
                 <div class="single-footer">
                     <h4>Sales & Marketing</h4>
-                    <span><img src="assets/img/footer-phone.png" alt=""> 077 4952 5383</span>
-                    <span><img src="assets/img/footer-phone.png" alt=""> 077 2247 4930</span>
+                    <span><img src="{{asset('assets/img/footer-phone.png')}}" alt=""> 077 4952 5383</span>
+                    <span><img src="{{asset('assets/img/footer-phone.png')}}" alt=""> 077 2247 4930</span>
                 </div>
             </div>
             <div class="col-12">
                 <!-- Footer Copy -->
                 <div class="footer-copy">
                     <p>Rate Locker Ltd. is not responsible for content on external Web sites.</p>
-                    <p>&copy; 2023 Rate Locker Ltd., an Noorjahan Group company. All rights reserved. Rate Locker Ltd.</p>
+                    <p>&copy; 2023 Rate Locker Ltd., an My Group company. All rights reserved. Rate Locker Ltd.</p>
                 </div>
             </div>
         </div>

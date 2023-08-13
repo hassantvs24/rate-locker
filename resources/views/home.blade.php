@@ -11,7 +11,7 @@
                     <form action="" class="review-box-home">
                         <div class="review-input">
                             <div class="review-input-box full-box">
-                                <img src="assets/img/icons/icon-location-alt.svg" alt="">
+                                <img src="{{asset('assets/img/icons/icon-location-alt.svg')}}" alt="">
                                 <input type="text" placeholder="Cox's Bazar. Chittagong">
                             </div>
                         </div>
@@ -46,28 +46,28 @@
                                 </svg>
                                 <input type="number" name="number" min="0" max="100" placeholder="2 Adult">
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
-                                    <img src="assets/img/home/arrow_drop_up.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_up.png')}}" alt="">
                                 </button>
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
-                                    <img src="assets/img/home/arrow_drop_down.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_down.png')}}" alt="">
                                 </button>
                             </div>
                             <div class="review-input-box">
                                 <input type="number" name="number" min="0" max="100" placeholder="0 Child">
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
-                                    <img src="assets/img/home/arrow_drop_up.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_up.png')}}" alt="">
                                 </button>
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
-                                    <img src="assets/img/home/arrow_drop_down.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_down.png')}}" alt="">
                                 </button>
                             </div>
                             <div class="review-input-box">
                                 <input type="number" name="number" min="0" max="100" placeholder="1 Room">
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepDown();">
-                                    <img src="assets/img/home/arrow_drop_up.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_up.png')}}" alt="">
                                 </button>
                                 <button type="button" onclick="this.parentNode.querySelector('[type=number]').stepUp();">
-                                    <img src="assets/img/home/arrow_drop_down.png" alt="">
+                                    <img src="{{asset('assets/img/home/arrow_drop_down.png')}}" alt="">
                                 </button>
                             </div>
                         </div>
@@ -88,20 +88,20 @@
     <section class="bannar">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner bannar-inner">
-                <div class="carousel-item bannar-item active" style="background-image:url('./assets/img/home/sliders/slide-3.jpg')">
+                <div class="carousel-item bannar-item active" style="background-image:url('{{asset('assets/img/home/sliders/slide-3.jpg')}}')">
                     <div class="carousel-caption bannar-caption">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="bannar-content">
-                                        <h4><img src="assets/img/home/sliders/slide-icon-1.svg" alt=""> Cox's Bazar. <br> Chittagong</h4>
+                                        <h4><img src="{{asset('assets/img/home/sliders/slide-icon-1.svg')}}" alt=""> Cox's Bazar. <br> Chittagong</h4>
                                         <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long.</p>
                                         <a href="" class="btn-border">Explore Hotels</a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="bannar-img">
-                                        <img src="assets/img/home/sliders/slide-small-1.png" alt="...">
+                                        <img src="{{asset('assets/img/home/sliders/slide-small-1.png')}}" alt="...">
                                     </div>
                                 </div>
                                 <div class="col-md-1">
@@ -113,20 +113,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-2.jpg')">
+                <div class="carousel-item bannar-item" style="background-image:url('{{asset('assets/img/home/sliders/slide-2.jpg')}}')">
                     <div class="carousel-caption bannar-caption">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="bannar-content">
-                                        <h4><img src="assets/img/home/sliders/slide-icon-2.svg" alt=""> Saint Martin. <br>   Chittagong</h4>
+                                        <h4><img src="{{asset('assets/img/home/sliders/slide-icon-2.svg')}}" alt=""> Saint Martin. <br>   Chittagong</h4>
                                         <p>St. Martin is generally known as “Narikel Zinzira” in Bengali, means 'Coconut Island' and this is the only coral reef island in Bangladesh. It is a small island in the north eastern part of the Bay of Bengal, created the southernmost part of our country. And a fantastic tourist attraction.</p>
                                         <a href="" class="btn-border">Explore Hotels</a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="bannar-img">
-                                        <img src="assets/img/home/sliders/slide-small-2.png" alt="...">
+                                        <img src="{{asset('assets/img/home/sliders/slide-small-2.png')}}" alt="...">
                                     </div>
                                 </div>
                                 <div class="col-md-1">
@@ -138,20 +138,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item bannar-item" style="background-image:url('./assets/img/home/sliders/slide-3.jpg')">
+                <div class="carousel-item bannar-item" style="background-image:url('{{asset('assets/img/home/sliders/slide-3.jpg')}}')">
                     <div class="carousel-caption bannar-caption">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="bannar-content">
-                                        <h4><img src="assets/img/home/sliders/slide-icon-3.svg" alt=""> Ratargul. <br> Sylhet</h4>
+                                        <h4><img src="{{asset('assets/img/home/sliders/slide-icon-3.svg')}}" alt=""> Ratargul. <br> Sylhet</h4>
                                         <p>Cox’s Bazar is a District under Chittagong Division, which is famous for its longest unbroken sandy sea beach. It is located 150 km south of the industrial port- Chittagong. Cox’s Bazar is considered as having the longest sea beach in the world, with a total of 121 kilometer long.</p>
                                         <a href="" class="btn-border">Explore Hotels</a>
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="bannar-img">
-                                        <img src="assets/img/home/sliders/slide-small-3.png" alt="...">
+                                        <img src="{{asset('assets/img/home/sliders/slide-small-3.png')}}" alt="...">
                                     </div>
                                 </div>
                                 <div class="col-md-1">
@@ -204,16 +204,16 @@
                         <h4>Hotel Booking Within Your Budget Is Never Been <span>Easier</span></h4>
                         <p>Pickup your phone today, and install our mobile app. After that, just one click away to find your dream hotel to your destination within your budget</p>
                         <div class="promo-img">
-                            <img src="assets/img/home/home-qr-code.svg" alt="">
+                            <img src="{{asset('assets/img/home/home-qr-code.svg')}}" alt="">
                             <div class="promo-img-right">
-                                <a href=""><img src="assets/img/home/google-play-badge.svg" alt=""></a>
-                                <a href=""><img src="assets/img/home/apple-play-store.svg" alt=""></a>
+                                <a href=""><img src="{{asset('assets/img/home/google-play-badge.svg')}}" alt=""></a>
+                                <a href=""><img src="{{asset('assets/img/home/apple-play-store.svg')}}" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <img src="assets/img/home/home-promo.png" alt="">
+                    <img src="{{asset('assets/img/home/home-promo.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -234,7 +234,7 @@
                         <div class="col-md-7">
                             <div class="single-feature d-flex align-items-center">
                            <span>
-                           <img src="assets/img/icons/feature-number-1.png" alt="">
+                           <img src="{{asset('assets/img/icons/feature-number-1.png')}}" alt="">
                            </span>
                                 <div class="single-feature-content">
                                     <h4>Register</h4>
@@ -243,17 +243,17 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <img src="assets/img//icons/feature-icon-1.png" alt="" class="single-feature-img">
+                            <img src="{{asset('assets/img//icons/feature-icon-1.png')}}" alt="" class="single-feature-img">
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-5">
-                            <img src="assets/img//icons/feature-icon-2.png" alt="" class="single-feature-img">
+                            <img src="{{asset('assets/img//icons/feature-icon-2.png')}}" alt="" class="single-feature-img">
                         </div>
                         <div class="col-md-7">
                             <div class="single-feature d-flex align-items-center">
                            <span>
-                           <img src="assets/img/icons/feature-number-2.png" alt="">
+                           <img src="{{asset('assets/img/icons/feature-number-2.png')}}" alt="">
                            </span>
                                 <div class="single-feature-content">
                                     <h4>Set your destination</h4>
@@ -266,7 +266,7 @@
                         <div class="col-md-7">
                             <div class="single-feature d-flex align-items-center">
                            <span>
-                           <img src="assets/img/icons/feature-number-3.png" alt="">
+                           <img src="{{asset('assets/img/icons/feature-number-3.png')}}" alt="">
                            </span>
                                 <div class="single-feature-content">
                                     <h4>Chose From Responce</h4>
@@ -275,17 +275,17 @@
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <img src="assets/img//icons/feature-icon-3.png" alt="" class="single-feature-img">
+                            <img src="{{asset('assets/img//icons/feature-icon-3.png')}}" alt="" class="single-feature-img">
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-5">
-                            <img src="assets/img//icons/feature-icon-4.png" alt="" class="single-feature-img">
+                            <img src="{{asset('assets/img//icons/feature-icon-4.png')}}" alt="" class="single-feature-img">
                         </div>
                         <div class="col-md-7">
                             <div class="single-feature d-flex align-items-center">
                            <span>
-                           <img src="assets/img/icons/feature-number-4.png" alt="">
+                           <img src="{{asset('assets/img/icons/feature-number-4.png')}}" alt="">
                            </span>
                                 <div class="single-feature-content">
                                     <h4>Book Your Room</h4>
@@ -320,20 +320,20 @@
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room1.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room1.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -341,20 +341,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room2.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room2.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -362,20 +362,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room3.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room3.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -383,20 +383,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room4.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room4.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -404,20 +404,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room5.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room5.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -425,20 +425,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room6.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room6.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -446,20 +446,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room7.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room7.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -467,20 +467,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room8.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room8.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -488,20 +488,20 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-room">
-                        <div class="room-image" style="background-image:url('assets/img/rooms/room9.png')"></div>
+                        <div class="room-image" style="background-image:url('{{asset('assets/img/rooms/room9.png')}}')"></div>
                         <div class="room-content">
                             <h4>Leonardo Hotel Barcelona Gran Via <span>Cox’s Bazar, Chittagong</span></h4>
                             <div class="room-feature d-flex justify-content-between align-items-center">
                                 <div class="room-icon">
-                                    <img src="assets/img/icons/icon-home-welcome-drink.png" alt="">
-                                    <img src="assets/img/icons/icon-home-air-condiitoner.png" alt="">
-                                    <img src="assets/img/icons/icon-home-tea.png" alt="">
-                                    <img src="assets/img/icons/icon-home-swimming.png" alt="">
-                                    <img src="assets/img/icons/icon-home-wifi.png" alt="">
-                                    <img src="assets/img/icons/icon-home-breakfast.png" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-welcome-drink.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-air-condiitoner.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-tea.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-swimming.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-wifi.png')}}" alt="">
+                                    <img src="{{asset('assets/img/icons/icon-home-breakfast.png')}}" alt="">
                                 </div>
                                 <div class="room-rating d-flex align-items-center">
-                                    <img src="assets/img/icons/icon-star.png" alt=""> 4.8
+                                    <img src="{{asset('assets/img/icons/icon-star.png')}}" alt=""> 4.8
                                 </div>
                             </div>
                         </div>
@@ -525,9 +525,9 @@
                 <h4>Be Up To Date With Our Best Deals, Offer & Recommendation</h4>
                 <form action="">
                     <div class="subscribe-group">
-                        <img class="icon-envelope" src="assets/img/icons/envelope.png" alt="">
+                        <img class="icon-envelope" src="{{asset('assets/img/icons/envelope.png')}}" alt="">
                         <input type="email" name="" id="" placeholder="enter your email here">
-                        <img class="icon-close" src="assets/img/icons/close.png" alt="">
+                        <img class="icon-close" src="{{asset('assets/img/icons/close.png')}}" alt="">
                     </div>
                     <div class="subscribe-check">
                         <input type="checkbox" class="form-check-input">
