@@ -58,10 +58,10 @@
                                         <path d="M12 18C12.2833 18 12.521 17.904 12.713 17.712C12.9043 17.5207 13 17.2833 13 17H11C11 17.2833 11.096 17.5207 11.288 17.712C11.4793 17.904 11.7167 18 12 18ZM8.5 16.5H15.5C15.6333 16.5 15.75 16.45 15.85 16.35C15.95 16.25 16 16.1333 16 16C16 15.8667 15.95 15.75 15.85 15.65C15.75 15.55 15.6333 15.5 15.5 15.5H15V13.15C15 12.4167 14.8 11.75 14.4 11.15C14 10.55 13.45 10.1667 12.75 10V9.75C12.75 9.53333 12.6793 9.354 12.538 9.212C12.396 9.07067 12.2167 9 12 9C11.7833 9 11.6043 9.07067 11.463 9.212C11.321 9.354 11.25 9.53333 11.25 9.75V10C10.55 10.1667 10 10.55 9.6 11.15C9.2 11.75 9 12.4167 9 13.15V15.5H8.5C8.36667 15.5 8.25 15.55 8.15 15.65C8.05 15.75 8 15.8667 8 16C8 16.1333 8.05 16.25 8.15 16.35C8.25 16.45 8.36667 16.5 8.5 16.5ZM6 21.5C5.45 21.5 4.97933 21.3043 4.588 20.913C4.196 20.521 4 20.05 4 19.5V10.5C4 10.1833 4.071 9.88333 4.213 9.6C4.35433 9.31667 4.55 9.08333 4.8 8.9L10.8 4.4C10.9833 4.26667 11.175 4.16667 11.375 4.1C11.575 4.03333 11.7833 4 12 4C12.2167 4 12.425 4.03333 12.625 4.1C12.825 4.16667 13.0167 4.26667 13.2 4.4L19.2 8.9C19.45 9.08333 19.646 9.31667 19.788 9.6C19.9293 9.88333 20 10.1833 20 10.5V19.5C20 20.05 19.8043 20.521 19.413 20.913C19.021 21.3043 18.55 21.5 18 21.5H6ZM6 19.5H18V10.5L12 6L6 10.5V19.5Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Facilities  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Facilities  <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Facilities <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Facilities <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                             <div class="single-filter-dropdown">
                                                 <input type="checkbox" class="btn-check" id="facilities1" autocomplete="off">
@@ -216,10 +216,10 @@
                                         <path d="M12 21.5C10.05 21.5 8.396 20.8207 7.038 19.462C5.67933 18.104 5 16.45 5 14.5C5 13.2167 5.21267 11.925 5.638 10.625C6.06267 9.325 6.61267 8.14567 7.288 7.087C7.96267 6.029 8.71667 5.16667 9.55 4.5C10.3833 3.83333 11.2 3.5 12 3.5C12.8167 3.5 13.6377 3.83333 14.463 4.5C15.2877 5.16667 16.0377 6.029 16.713 7.087C17.3877 8.14567 17.9377 9.325 18.363 10.625C18.7877 11.925 19 13.2167 19 14.5C19 16.45 18.3207 18.104 16.962 19.462C15.604 20.8207 13.95 21.5 12 21.5ZM12 19.5C13.3833 19.5 14.5627 19.0127 15.538 18.038C16.5127 17.0627 17 15.8833 17 14.5C17 13.55 16.8377 12.55 16.513 11.5C16.1877 10.45 15.7793 9.479 15.288 8.587C14.796 7.69567 14.2583 6.95833 13.675 6.375C13.0917 5.79167 12.5333 5.5 12 5.5C11.4833 5.5 10.9293 5.79167 10.338 6.375C9.746 6.95833 9.20433 7.69567 8.713 8.587C8.221 9.479 7.81267 10.45 7.488 11.5C7.16267 12.55 7 13.55 7 14.5C7 15.8833 7.48767 17.0627 8.463 18.038C9.43767 19.0127 10.6167 19.5 12 19.5ZM13 18.5C13.2833 18.5 13.521 18.404 13.713 18.212C13.9043 18.0207 14 17.7833 14 17.5C14 17.2167 13.9043 16.9793 13.713 16.788C13.521 16.596 13.2833 16.5 13 16.5C12.1667 16.5 11.4583 16.2083 10.875 15.625C10.2917 15.0417 10 14.3333 10 13.5C10 13.2167 9.90433 12.979 9.713 12.787C9.521 12.5957 9.28333 12.5 9 12.5C8.71667 12.5 8.47933 12.5957 8.288 12.787C8.096 12.979 8 13.2167 8 13.5C8 14.8833 8.48767 16.0627 9.463 17.038C10.4377 18.0127 11.6167 18.5 13 18.5Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Meal  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Meal  <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Meals <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Meals <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                             <div class="single-filter-dropdown">
                                                 <input type="checkbox" class="btn-check" id="meals1" autocomplete="off">
@@ -322,10 +322,10 @@
                                         <path d="M6.05005 21.55C5.86671 21.7 5.67105 21.7083 5.46305 21.575C5.25438 21.4417 5.19171 21.2583 5.27505 21.025L7.15005 14.9L2.27505 11.4C2.07505 11.2667 2.01271 11.0833 2.08805 10.85C2.16271 10.6167 2.31671 10.5 2.55005 10.5H8.60005L10.525 4.10001C10.5584 3.96667 10.621 3.87501 10.713 3.82501C10.8044 3.77501 10.9 3.75001 11 3.75001C11.1 3.75001 11.196 3.77501 11.288 3.82501C11.3794 3.87501 11.4417 3.96667 11.475 4.10001L13.4 10.5H19.45C19.6834 10.5 19.8377 10.6167 19.913 10.85C19.9877 11.0833 19.925 11.2667 19.725 11.4L14.85 14.9L16.725 21.025C16.8084 21.2583 16.746 21.4417 16.538 21.575C16.3294 21.7083 16.1334 21.7 15.95 21.55L11 17.8L6.05005 21.55ZM8.60005 17.15L11 15.3L13.4 17.15L12.5 14.1L14.75 12.5H11.95L11 9.40001L10.05 12.5H7.25005L9.50005 14.1L8.60005 17.15ZM20.1 21.55L18.625 20.425L17.15 15.7L20.25 13.5H22.125C22.3584 13.5 22.5167 13.6167 22.6 13.85C22.6834 14.0833 22.625 14.2667 22.425 14.4L19.5 16.5L20.9 21C20.9834 21.2333 20.9167 21.4207 20.7 21.562C20.4834 21.704 20.2834 21.7 20.1 21.55ZM14.9 8.50001L14.15 5.95001L14.7 4.10001C14.7334 3.96667 14.7957 3.87067 14.887 3.81201C14.979 3.75401 15.075 3.72501 15.175 3.72501C15.275 3.72501 15.371 3.75834 15.463 3.82501C15.5544 3.89167 15.6167 3.98334 15.65 4.10001L17 8.50001H14.9Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Hotel Classes  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Hotel Classes  <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Hotel Class <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Hotel Class <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                             <div class="single-filter-dropdown">
                                                 <input type="checkbox" class="btn-check" id="hclass1" autocomplete="off">
@@ -356,10 +356,10 @@
                                         <path d="M12 15.45L14.775 17.55C14.975 17.6833 15.175 17.6873 15.375 17.562C15.575 17.4373 15.6333 17.2583 15.55 17.025L14.5 13.55L17.225 11.6C17.425 11.45 17.4833 11.2623 17.4 11.037C17.3167 10.8123 17.1583 10.7 16.925 10.7H13.6L12.475 7.05C12.3917 6.81667 12.2333 6.7 12 6.7C11.7667 6.7 11.6083 6.81667 11.525 7.05L10.4 10.7H7.075C6.84167 10.7 6.68333 10.8123 6.6 11.037C6.51667 11.2623 6.575 11.45 6.775 11.6L9.5 13.55L8.45 17.025C8.36667 17.2583 8.425 17.4373 8.625 17.562C8.825 17.6873 9.025 17.6833 9.225 17.55L12 15.45ZM12 22.5C10.6167 22.5 9.31667 22.2373 8.1 21.712C6.88333 21.1873 5.825 20.475 4.925 19.575C4.025 18.675 3.31267 17.6167 2.788 16.4C2.26267 15.1833 2 13.8833 2 12.5C2 11.1167 2.26267 9.81667 2.788 8.6C3.31267 7.38333 4.025 6.325 4.925 5.425C5.825 4.525 6.88333 3.81233 8.1 3.287C9.31667 2.76233 10.6167 2.5 12 2.5C13.3833 2.5 14.6833 2.76233 15.9 3.287C17.1167 3.81233 18.175 4.525 19.075 5.425C19.975 6.325 20.6873 7.38333 21.212 8.6C21.7373 9.81667 22 11.1167 22 12.5C22 13.8833 21.7373 15.1833 21.212 16.4C20.6873 17.6167 19.975 18.675 19.075 19.575C18.175 20.475 17.1167 21.1873 15.9 21.712C14.6833 22.2373 13.3833 22.5 12 22.5ZM12 20.5C14.2167 20.5 16.1043 19.721 17.663 18.163C19.221 16.6043 20 14.7167 20 12.5C20 10.2833 19.221 8.39567 17.663 6.837C16.1043 5.279 14.2167 4.5 12 4.5C9.78333 4.5 7.896 5.279 6.338 6.837C4.77933 8.39567 4 10.2833 4 12.5C4 14.7167 4.77933 16.6043 6.338 18.163C7.896 19.721 9.78333 20.5 12 20.5Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Ratings <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Ratings <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Ratings <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Ratings <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items d-flex justify-content-between flex-wrap">
                                             <div class="single-filter-dropdown">
                                                 <input type="checkbox" class="btn-check" id="rating1" autocomplete="off">
@@ -430,10 +430,10 @@
                                         <path d="M3 20.5C2.71667 20.5 2.47933 20.404 2.288 20.212C2.096 20.0207 2 19.7833 2 19.5V10.925C2 10.7917 2.025 10.6623 2.075 10.537C2.125 10.4123 2.2 10.3 2.3 10.2L7.3 5.2C7.4 5.1 7.50833 5.029 7.625 4.987C7.74167 4.94567 7.86667 4.925 8 4.925C8.13333 4.925 8.25833 4.94567 8.375 4.987C8.49167 5.029 8.6 5.1 8.7 5.2L13.7 10.2C13.8 10.3 13.875 10.4123 13.925 10.537C13.975 10.6623 14 10.7917 14 10.925V19.5C14 19.7833 13.9043 20.0207 13.713 20.212C13.521 20.404 13.2833 20.5 13 20.5H3ZM4 18.5H7V16.5C7 16.2167 7.09567 15.979 7.287 15.787C7.479 15.5957 7.71667 15.5 8 15.5C8.28333 15.5 8.521 15.5957 8.713 15.787C8.90433 15.979 9 16.2167 9 16.5V18.5H12V11.325L8 7.325L4 11.325V18.5ZM8 13.5C7.71667 13.5 7.479 13.404 7.287 13.212C7.09567 13.0207 7 12.7833 7 12.5C7 12.2167 7.09567 11.979 7.287 11.787C7.479 11.5957 7.71667 11.5 8 11.5C8.28333 11.5 8.521 11.5957 8.713 11.787C8.90433 11.979 9 12.2167 9 12.5C9 12.7833 8.90433 13.0207 8.713 13.212C8.521 13.404 8.28333 13.5 8 13.5ZM17 20.5C16.7167 20.5 16.4793 20.404 16.288 20.212C16.096 20.0207 16 19.7833 16 19.5V9.875C16 9.84167 15.95 9.725 15.85 9.525L12.525 6.2C12.2083 5.88333 12.1333 5.52067 12.3 5.112C12.4667 4.704 12.775 4.5 13.225 4.5C13.3583 4.5 13.4917 4.529 13.625 4.587C13.7583 4.64567 13.8667 4.71667 13.95 4.8L17.7 8.55C17.8 8.65 17.875 8.76233 17.925 8.887C17.975 9.01233 18 9.14167 18 9.275V19.5C18 19.7833 17.904 20.0207 17.712 20.212C17.5207 20.404 17.2833 20.5 17 20.5ZM21 20.5C20.7167 20.5 20.4793 20.404 20.288 20.212C20.096 20.0207 20 19.7833 20 19.5V8.225C20 8.19167 19.95 8.075 19.85 7.875L18.175 6.2C17.8583 5.88333 17.7833 5.52067 17.95 5.112C18.1167 4.704 18.425 4.5 18.875 4.5C19.0083 4.5 19.1417 4.529 19.275 4.587C19.4083 4.64567 19.5167 4.71667 19.6 4.8L21.7 6.9C21.8 7 21.875 7.11267 21.925 7.238C21.975 7.36267 22 7.49167 22 7.625V19.5C22 19.7833 21.904 20.0207 21.712 20.212C21.5207 20.404 21.2833 20.5 21 20.5Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Property Type  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Property Type  <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Property Type <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Property Type <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items d-flex justify-content-between flex-wrap filter-radio">
                                             <div class="single-filter-dropdown filter-radio">
                                                 <input type="checkbox" class="btn-check" id="property1" autocomplete="off">
@@ -472,10 +472,10 @@
                                         <path d="M11 18.5C10.7167 18.5 10.4793 18.404 10.288 18.212C10.096 18.0207 10 17.7833 10 17.5C10 17.2167 10.096 16.9793 10.288 16.788C10.4793 16.596 10.7167 16.5 11 16.5H13C13.2833 16.5 13.521 16.596 13.713 16.788C13.9043 16.9793 14 17.2167 14 17.5C14 17.7833 13.9043 18.0207 13.713 18.212C13.521 18.404 13.2833 18.5 13 18.5H11ZM4 8.5C3.71667 8.5 3.47933 8.40433 3.288 8.213C3.096 8.021 3 7.78333 3 7.5C3 7.21667 3.096 6.979 3.288 6.787C3.47933 6.59567 3.71667 6.5 4 6.5H20C20.2833 6.5 20.5207 6.59567 20.712 6.787C20.904 6.979 21 7.21667 21 7.5C21 7.78333 20.904 8.021 20.712 8.213C20.5207 8.40433 20.2833 8.5 20 8.5H4ZM7 13.5C6.71667 13.5 6.479 13.404 6.287 13.212C6.09567 13.0207 6 12.7833 6 12.5C6 12.2167 6.09567 11.979 6.287 11.787C6.479 11.5957 6.71667 11.5 7 11.5H17C17.2833 11.5 17.5207 11.5957 17.712 11.787C17.904 11.979 18 12.2167 18 12.5C18 12.7833 17.904 13.0207 17.712 13.212C17.5207 13.404 17.2833 13.5 17 13.5H7Z" fill="#64748B"/>
                                     </g>
                                 </svg>
-                                Sort By  <span><img src="assets/img/icons/icon-caret.svg" alt=""></span>
+                                Sort By  <span><img src="{{asset('assets/img/icons/icon-caret.svg')}}" alt=""></span>
                                 <div class="filter-dropdown dropdown-radio">
                                     <div class="filter-dropdown-box">
-                                        <h4 class="d-flex justify-content-between">Short By <span>Clear <img src="assets/img/icons/icon-cancel.png" alt=""></span></h4>
+                                        <h4 class="d-flex justify-content-between">Short By <span>Clear <img src="{{asset('assets/img/icons/icon-cancel.png')}}" alt=""></span></h4>
                                         <div class="filter-dropdown-items">
                                             <div class="single-filter-dropdown">
                                                 <label for="">
@@ -512,11 +512,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
+                    @for($i = 0; $i < 10; $i++)
                     <div class="room-search-item">
                         <div class="room-column-slider">
-              <span class="room-column-icon">
-              <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
-              </span>
+                            <span class="room-column-icon">
+                               <a href=""><img src="{{asset('assets/img/icons/icon-heart.png')}}" alt=""></a>
+                            </span>
                             <div id="room-slider-1" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
@@ -525,33 +526,33 @@
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
+                                        <img src="{{asset('assets/img/rooms/room-search-1.jpg')}}" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
+                                        <img src="{{asset('assets/img/rooms/room-search-2.jpg')}}" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
+                                        <img src="{{asset('assets/img/rooms/room-search-3.jpg')}}" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-1" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_back.png" alt="">
-                 </span>
+                                     <span class="carousel-control-prev-icon" aria-hidden="true">
+                                     <img src="{{asset('assets/img/icons/arrow_back.png')}}" alt="">
+                                     </span>
                                 </button>
                                 <button class="carousel-control-next" type="button" data-bs-target="#room-slider-1" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_forward.png" alt="">
-                 </span>
+                                     <span class="carousel-control-next-icon" aria-hidden="true">
+                                     <img src="{{asset('assets/img/icons/arrow_forward.png')}}" alt="">
+                                     </span>
                                 </button>
                             </div>
                         </div>
                         <div class="room-search-box">
                             <div class="room-search-top d-flex justify-content-between align-items-start">
                                 <div class="room-search-top-info">
-                                    <span><img src="assets/img/icons/icon-home.png" alt=""> Hotel</span>
+                                    <span><img src="{{asset('assets/img/icons/icon-home.png')}}" alt=""> Hotel</span>
                                     <h4>Seacrest Oceanfront Resort</h4>
-                                    <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
+                                    <p><img src="{{asset('assets/img/icons/icon-pin.png')}}" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
                                 </div>
                                 <div class="room-search-top-rating d-flex justify-content-between align-items-center">
                                     <h5>Rating<span>1234 reviews</span></h5>
@@ -560,263 +561,20 @@
                             </div>
                             <div class="room-search-bottom d-flex justify-content-between align-items-end">
                                 <div class="room-search-features">
-                                    <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
-                                    <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
-                                    <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
-                                    <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
+                                    <span><img src="{{asset('assets/img/icons/icon-welcome-drink.png')}}" alt=""> Welcome Drink</span>
+                                    <span><img src="{{asset('assets/img/icons/icon-breakfast.png')}}" alt=""> Free Breakfast</span>
+                                    <span><img src="{{asset('assets/img/icons/icon-tea.png')}}" alt=""> Tea/Coffee</span>
+                                    <span><img src="{{asset('assets/img/icons/icon-air-condiitoner.png')}}" alt=""> Air Conditioner</span>
                                 </div>
                                 <div class="room-search-price">
                                     <span>Price Starting From</span>
                                     <p>BDT 15,906</p>
-                                    <a href="single-hotel-page.php" class="btn-bg">Details</a>
+                                    <a href="{{asset('single-hotel-page.php')}}" class="btn-bg">Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="room-search-item">
-                        <div class="room-column-slider">
-              <span class="room-column-icon">
-              <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
-              </span>
-                            <div id="room-slider-2" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#room-slider-2" data-bs-slide-to="2"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-2" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_back.png" alt="">
-                 </span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#room-slider-2" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_forward.png" alt="">
-                 </span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="room-search-box">
-                            <div class="room-search-top d-flex justify-content-between align-items-start">
-                                <div class="room-search-top-info">
-                                    <span><img src="assets/img/icons/icon-home.png" alt=""> Resort</span>
-                                    <h4>Seacrest Oceanfront Resort</h4>
-                                    <p><img src="assets/img/icons/icon-pin.png" alt=""> Ciutat de Barcelona</p>
-                                </div>
-                                <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                    <h5>Rating<span>1234 reviews</span></h5>
-                                    <p>4.8</p>
-                                </div>
-                            </div>
-                            <div class="room-search-bottom d-flex justify-content-between align-items-end">
-                                <div class="room-search-features">
-                                    <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
-                                    <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
-                                    <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
-                                    <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
-                                </div>
-                                <div class="room-search-price">
-                                    <span>Price Starting From</span>
-                                    <p>BDT 7,400</p>
-                                    <a href="single-hotel-page.php" class="btn-bg">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="room-search-item">
-                        <div class="room-column-slider">
-              <span class="room-column-icon">
-              <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
-              </span>
-                            <div id="room-slider-3" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#room-slider-3" data-bs-slide-to="2"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-3" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_back.png" alt="">
-                 </span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#room-slider-3" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_forward.png" alt="">
-                 </span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="room-search-box">
-                            <div class="room-search-top d-flex justify-content-between align-items-start">
-                                <div class="room-search-top-info">
-                                    <span><img src="assets/img/icons/icon-home.png" alt=""> Resort</span>
-                                    <h4>Beachside Resort</h4>
-                                    <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
-                                </div>
-                                <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                    <h5>Rating<span>1234 reviews</span></h5>
-                                    <p>4.8</p>
-                                </div>
-                            </div>
-                            <div class="room-search-bottom d-flex justify-content-between align-items-end">
-                                <div class="room-search-features">
-                                    <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
-                                    <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
-                                    <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
-                                    <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
-                                </div>
-                                <div class="room-search-price">
-                                    <span>Price Starting From</span>
-                                    <p>BDT 8,500</p>
-                                    <a href="single-hotel-page.php" class="btn-bg">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="room-search-item">
-                        <div class="room-column-slider">
-              <span class="room-column-icon">
-              <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
-              </span>
-                            <div id="room-slider-4" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#room-slider-1" data-bs-slide-to="2"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-4" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_back.png" alt="">
-                 </span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#room-slider-4" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_forward.png" alt="">
-                 </span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="room-search-box">
-                            <div class="room-search-top d-flex justify-content-between align-items-start">
-                                <div class="room-search-top-info">
-                                    <span><img src="assets/img/icons/icon-home.png" alt=""> Resort</span>
-                                    <h4>Ayre Hotel Gran Vía</h4>
-                                    <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
-                                </div>
-                                <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                    <h5>Rating<span>1234 reviews</span></h5>
-                                    <p>4.8</p>
-                                </div>
-                            </div>
-                            <div class="room-search-bottom d-flex justify-content-between align-items-end">
-                                <div class="room-search-features">
-                                    <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
-                                    <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
-                                    <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
-                                    <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
-                                </div>
-                                <div class="room-search-price">
-                                    <span>Price Starting From</span>
-                                    <p>BDT 8,400</p>
-                                    <a href="single-hotel-page.php" class="btn-bg">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="room-search-item">
-                        <div class="room-column-slider">
-              <span class="room-column-icon">
-              <a href=""><img src="assets/img/icons/icon-heart.png" alt=""></a>
-              </span>
-                            <div id="room-slider-5" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                    <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="1"></button>
-                                    <button type="button" data-bs-target="#room-slider-5" data-bs-slide-to="2"></button>
-                                </div>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/rooms/room-search-1.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-2.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/rooms/room-search-3.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#room-slider-5" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_back.png" alt="">
-                 </span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#room-slider-5" data-bs-slide="next">
-                 <span class="carousel-control-next-icon" aria-hidden="true">
-                 <img src="assets/img/icons/arrow_forward.png" alt="">
-                 </span>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="room-search-box">
-                            <div class="room-search-top d-flex justify-content-between align-items-start">
-                                <div class="room-search-top-info">
-                                    <span><img src="assets/img/icons/icon-home.png" alt=""> Resort</span>
-                                    <h4>Rosewood Mayakoba</h4>
-                                    <p><img src="assets/img/icons/icon-pin.png" alt=""> Hotel-Motel Zone, Cox's Bazar</p>
-                                </div>
-                                <div class="room-search-top-rating d-flex justify-content-between align-items-center">
-                                    <h5>Rating<span>1234 reviews</span></h5>
-                                    <p>4.8</p>
-                                </div>
-                            </div>
-                            <div class="room-search-bottom d-flex justify-content-between align-items-end">
-                                <div class="room-search-features">
-                                    <span><img src="assets/img/icons/icon-welcome-drink.png" alt=""> Welcome Drink</span>
-                                    <span><img src="assets/img/icons/icon-breakfast.png" alt=""> Free Breakfast</span>
-                                    <span><img src="assets/img/icons/icon-tea.png" alt=""> Tea/Coffee</span>
-                                    <span><img src="assets/img/icons/icon-air-condiitoner.png" alt=""> Air Conditioner</span>
-                                </div>
-                                <div class="room-search-price">
-                                    <span>Price Starting From</span>
-                                    <p>BDT 6,400</p>
-                                    <a href="single-hotel-page.php" class="btn-bg">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endfor
                 </div>
                 <div class="col-md-4">
                     <div class="room-search-map">
