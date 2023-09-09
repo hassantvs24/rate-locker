@@ -58,8 +58,8 @@
                             </div>
                         </div>
                         <div class="review-input">
-                            <input type="submit" value="Request Booking" class="btn btn-bg">
-                            <input type="submit" value="Search Result" class="btn btn-border">
+                            <input type="submit" name="queries" value="Request" class="btn btn-bg">
+                            <input type="submit" name="queries" value="Search" class="btn btn-border">
                         </div>
                     </form>
                 </div>
