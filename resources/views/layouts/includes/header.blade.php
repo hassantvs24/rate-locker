@@ -32,34 +32,26 @@
                 <div class="header-right text-end">
                     <div class="btn-group dropdown-center header-right-single">
                         <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            BD
+                            ৳ BDT
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">৳ BDT</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                            <li><a class="dropdown-item" href="#">$ USD</a></li>
                         </ul>
                     </div>
                     <div class="btn-group dropdown-center header-right-single">
                         <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            EN
+                            <img src="{{asset('assets/img/icons/united-kingdom.png')}}" style="height: 20px;" alt="EN" /> EN
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="{{asset('assets/img/icons/united-kingdom.png')}}"  style="height: 20px;" alt="EN" /> EN</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Item 2</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Item 3</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="{{asset('assets/img/icons/bangladesh.png')}}"  style="height: 20px;" alt="BN" /> BN</a></li>
                         </ul>
                     </div>
                     <div class="btn-group header-right-alert">
