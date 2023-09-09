@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BookingRequestController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PropertyController;
@@ -17,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'index'])->name('home');
+
+Route::get('/booking-request', [BookingRequestController::class, 'index'])->name('booking_request');
 
 Route::get('/property', [PropertyController::class, 'index'])->name('property');
 Route::get('/property-add', [PropertyController::class, 'add_property'])->name('property.add');
