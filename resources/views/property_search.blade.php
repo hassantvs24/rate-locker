@@ -7,10 +7,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <form action="">
+                    <form action="{{route('booking_request')}}" type="get">
                         <div class="filter-top d-flex justify-content-between align-items-center">
                             <div class="filter-box">
-                                <img src="assets/img/icons/icon-location-alt.svg" alt="">
+                                <img src="{{asset('assets/img/icons/icon-location-alt.svg')}}" alt="location">
                                 <input type="text" placeholder="Cox's Bazar. Chittagong">
                             </div>
                             <div class="filter-box">
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
                             <div class="filter-box">
-                                <a href="" class="btn btn-bg">Request</a>
+                                <button type="submit" class="btn btn-bg" name="queries" value="Request">Request</button>
                             </div>
                         </div>
                         <div class="filter-bottom d-flex justify-content-between align-items-center">
